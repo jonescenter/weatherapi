@@ -22,9 +22,8 @@ jobs:
         with:
           python-version: '3.x'
 
-- name: Install dependencies
-        run: |
-          pip install "mkdocs-material<2.0" neoteroi-mkdocs pymdown-extensions
+      - name: Install dependencies
+        run: pip install "mkdocs-material<2.0" neoteroi-mkdocs pymdown-extensions
 
       - name: Deploy
         run: mkdocs gh-deploy --force
