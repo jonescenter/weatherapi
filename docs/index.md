@@ -12,4 +12,4 @@ This value is shared across all Jones Center APIs and is referenced in the quick
 
 ## Access & Support
 
-Access to the Weather API is managed by IT. To request access contact the IT department at [it@jonesctr.org](mailto:it@jonesctr.org).
+Access to the Weather API is managed by IT. To request access contact the IT department at [support@jonesctr.org](mailto:support@jonesctr.org).
