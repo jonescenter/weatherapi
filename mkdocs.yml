@@ -4,10 +4,6 @@ repo_url: https://github.com/jonescenter/weatherapi
 
 theme:
   name: material
-  palette:
-    - scheme: default
-      primary: custom
-      accent: custom
   font:
     text: Roboto
     code: Roboto Mono
@@ -16,9 +12,6 @@ theme:
     - navigation.sections
     - navigation.top
     - search.highlight
-
-extra_css:
-  - stylesheets/extra.css
 
 plugins:
   - search
