@@ -23,7 +23,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install setuptools "mkdocs-material<2.0" neoteroi-mkdocs pymdown-extensions
+        run: pip install setuptools "mkdocs==1.6.1" "mkdocs-material==9.5.50" neoteroi-mkdocs pymdown-extensions
 
       - name: Deploy
         run: mkdocs gh-deploy --force
