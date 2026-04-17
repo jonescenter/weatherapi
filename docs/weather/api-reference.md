@@ -17,4 +17,4 @@ All requests require two headers:
 
 ## Endpoints
 
-[OAD(https://ca-weatherapi-dab.lemoncoast-fa9a9119.westus2.azurecontainerapps.io/api/openapi)]
+[OAD(https://api.jonesctr.org/weather/api/openapi)]
