@@ -1,0 +1,44 @@
+site_name: Jones Center Data Portal
+site_url: https://docs.jonesctr.org
+repo_url: https://github.com/jonescenter/weatherapi
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - neoteroi.mkdocsoad:
+      use_pymdownx: true
+
+markdown_extensions:
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Weather API:
+    - Overview: weather/index.md
+    - Quickstart: weather/quickstart.md
+    - API Reference: weather/api-reference.md
+    - Data Dictionary: weather/data-dictionary.md
+
+copyright: "© Jones Center at Ichauway"
