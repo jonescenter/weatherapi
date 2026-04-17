@@ -27,3 +27,11 @@ The weather station collects the following measurements:
 - Datalogger battery voltage
 
 ## API Endpoint
+
+`https://api.jonesctr.org/weather`
+
+Authentication is required on all requests. See the [Quickstart](quickstart.md) guide to get connected.
+
+## Data Format
+
+The API returns JSON. All requests use OData-style query parameters for filtering, ordering, and pagination — the same pattern used by NEON, USGS, and other scientific data APIs.
